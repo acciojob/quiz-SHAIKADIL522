@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+* { box-sizing: border-box; }
+
+body {
+  background: linear-gradient(135deg, #e8ecf6, #c3cde0);
+  font-family: Poppins, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+}
+
+.quiz-header { padding: 4rem; }
+
+h2 { text-align: center; margin: 0; }
+
+ul { list-style: none; padding: 0; }
+ul li { font-size: 1.1rem; margin: 1rem 0; }
+ul li label { cursor: pointer; }
+
+button {
+  background: #8e44ad;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 1.3rem;
+}
+button:hover { background: #732d91; }
